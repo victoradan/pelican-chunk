@@ -16,11 +16,11 @@ Tags: light, white, fixed-width, one-column, custom-background, custom-header, c
 ----------------------------------------------- */
 body {
 	background-color: #fff;
-	background-image: -moz-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
-	background-image: -webkit-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
+	background-image: -moz-linear-gradient( rgba(0,0,0,0.12), rgba(255,255,255,0) 60px );
+	background-image: -webkit-linear-gradient( rgba(0,0,0,0.12), rgba(255,255,255,0) 60px );
 	color: #555;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-size: 14px;
 	margin: 0;
 	text-align: center;
 }
@@ -30,14 +30,14 @@ body {
 	width: 800px;
 }
 #header {
-	min-height: 180px;
+	min-height: 140px;
 	padding-top: 70px;
 	width: 800px;
 }
 #contents {
 	border-left: 1px solid #ccc;
 	height: auto;
-	margin-left: 199px;
+	margin-left: 149px;
 	padding-bottom: 10px;
 }
 
@@ -48,7 +48,7 @@ body {
 	color: #000;
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
 	font-weight: bold;
-	font-size: 80px;
+	font-size: 60px;
 	margin: 0px;
 	text-transform: uppercase;
 	text-rendering: optimizeLegibility;
@@ -59,7 +59,7 @@ body {
 	text-decoration: none;
 }
 #site-title a:hover {
-	color: #36bcab;
+	color: #bac;
 }
 #site-description {
 	background: #f1f1f1;
@@ -183,7 +183,6 @@ body {
 .hentry .main {
 	border-bottom: 1px dashed #ddd;
 	float: left;
-	line-height: 175%;
 	padding: 29px 5px 15px 15px;
 	text-align: left;
 	width: 580px;
@@ -210,13 +209,13 @@ body {
 	margin: 0px;
 }
 .hentry .entry-meta .comments {
-	color: #36bcab;
+	color: #bac;
 	display: block;
 	font-size: 16px;
 	margin: -4px 0 0;
 }
 .hentry .entry-meta .comments a {
-	color: #36bcab;
+	color: #bac;
 	font-size: 22px;
 	font-weight: bold;
 	text-decoration: none;
@@ -231,7 +230,7 @@ body {
 	color: #777;
 }
 .hentry .entry-meta .cat-links a:hover {
-	color: #36bcab;
+	color: #bac;
 }
 .hentry .entry-meta .edit-link a {
 	font-size: 16px;
@@ -266,20 +265,18 @@ body {
 	display: none;
 }
 blockquote {
-	background: #eee;
-	border-left: 10px solid #36bcab;
-	color: #000;
+	border-left: 1px solid #bac;
 	font-family: Georgia, Arial, Helvetica, sans-serif;
-	font-size: 15px;
 	padding: 10px;
 	text-align: justify;
+    font-style: italic;
 }
 a {
 	color: #000;
 	text-decoration: underline;
 }
 a:hover {
-	color: #36bcab;
+	color: #bac;
 }
 .entry-content a img {
 	border: 10px solid #ddd;
@@ -321,7 +318,7 @@ b, strong {
 	background: #f5f5f5;
 }
 .page-link a {
-	background: #36bcab;
+	background: #bac;
 	border-radius: 26px;
 	color: #000;
 	font-weight: normal;
@@ -630,7 +627,7 @@ article.comment {
 	width: 80%;
 }
 #respond label {
-	background: #36bcab;
+	background: #bac;
 	border-radius: 3px;
 	color: #c8f1ec;
 	font-size: 13px;
@@ -808,7 +805,7 @@ article.comment {
 	width: 800px;
 }
 #footer a {
-	color: #36bcab;
+	color: #bac;
 	text-decoration: none;
 }
 

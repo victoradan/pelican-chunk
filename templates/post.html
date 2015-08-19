@@ -27,5 +27,12 @@
     			{% for tag in article.tags|sort %}{{- delimiter() }} <a href="{{ SITEURL }}/{{ tag.url }}" rel="tag">{{ tag }}</a>{% endfor %}
     		</span>
     	{% endif %}
+        {% if article.translations %}
+    		<span class="tag-links"><strong>Translations</strong>
+            {% for art in article.translations %}
+                <a href="{{ SITEURL }}/{{art.url}}">{{art.lang}}</a>
+            {% endfor %}
+        {% endif %}
+
 	</div> <!--/#main-->
 </div>  <!--/#post-->

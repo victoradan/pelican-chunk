@@ -35,6 +35,11 @@
 		<div id="menu">
 			<div class="menu-navigation-container">
 				<ul id="menu-navigation" class="menu">
+					{% if SOCIAL %}
+					  {% for name, url in SOCIAL %}
+						<li  class="active" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url }}">{{ name }}</a></li>
+					  {% endfor %} 
+					{% endif %}
 					{% for title, link in MENUITEMS %}
 						<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ link }}">{{ title }}</a></li>
 					{% endfor %}
